@@ -35,6 +35,14 @@ These findings will be used to provide actionable insights to the head of the ne
 
 # Data Understanding and Analysis
 
+## Objective
+
+Analyze the consolidated dataset to provide insights to a business stakeholder who is interested in creating a new movie studio.
+
+## Data Preparation
+
+- The data was cleaned and consolidated into a [single dataset](./data/derrived_data.csv) for analysis
+
 ## Source of Data
 
 The data for this analysis was sourced from the following websites and is available in the `data` directory:
@@ -50,14 +58,17 @@ The data for this analysis was sourced from the following websites and is availa
 The consolidated dataset includes the following columns, these will be the key factors used in the analysis:
 
 - 'rating': the average rating for each movie
-- 'domestic_gross': the domestic gross revenue for each movie
-- 'worldwide_gross': the worldwide gross revenue for each movie
-- 'production_budget': the production budget for each movie
+- 'runtime': the runtime for each movie
+- 'studio': the studio that produced each movie
 - 'genres': the genres for each movie
 - 'roi': the return on investment for each movie
+- 'release_month': the month that each movie was released
 
-## Visualizations
+## Conclusion & Recommendations
 
-# Conclusion
+The analysis found that the best performing movies are:
 
-- Summary of Conclusions
+- **Genres**: Horror, Mystery, Thriller
+- **Rating**: Around 4.0
+- **Runtime**: Around 90 minutes or less
+- **Studio**: Produced by UTV, WB, or ParV
