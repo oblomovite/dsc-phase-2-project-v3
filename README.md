@@ -33,6 +33,23 @@ The key business questions that will be addressed in this analysis are:
 
 These findings will be used to provide actionable insights to the head of the new movie studio to help decide what type of films to create.
 
+# Running the Project
+
+```bash
+# clone the repository
+git clone https://github.com/oblomovite/dsc-phase-2-project-v3/tree/master <dir>
+cd <dir>
+
+# activate the virtual environment using conda/mamba
+conda activate <env>
+
+# install the required packages
+pip install -r requirements.txt
+
+# start the notebook
+jupyter notebook
+```
+
 # Data Understanding and Analysis
 
 ## Objective
@@ -72,3 +89,7 @@ The analysis found that the best performing movies are:
 - **Rating**: Around 4.0
 - **Runtime**: Around 90 minutes or less
 - **Studio**: Produced by UTV, WB, or ParV
+
+```
+
+```
